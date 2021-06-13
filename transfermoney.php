@@ -5,9 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transfer Money</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/nav.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/nav.css"> -->
 
     <style type="text/css">
+    ul {
+    position: relative;
+    top:40px;
+    list-style-type:none;
+}
+
+ul li a {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+ul li {
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color:rgb(0, 0, 0);
+}
+
+.navbar {
+    height: 60px;
+    width: 1599.99px;
+    position:relative;   
+    overflow:hidden;
+    top:0px;
+    z-index: 10;
+    background-color:rgb(231, 29, 73);
+    
+}
+.text{
+    position:relative;
+    top:-30px;
+    left:-90px;
+}
+
       
       button{
            background-color:rgb(240, 158, 185);

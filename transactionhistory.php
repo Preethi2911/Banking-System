@@ -5,8 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction History</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/nav.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/nav.css"> -->
     <style>
+    ul {
+    position: relative;
+    top:40px;
+    list-style-type:none;
+}
+
+ul li a {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+ul li {
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color:rgb(0, 0, 0);
+}
+
+.navbar {
+    height: 60px;
+    width: 1599.99px;
+    position:relative;   
+    overflow:hidden;
+    top:0px;
+    z-index: 10;
+    background-color:rgb(231, 29, 73);
+    
+}
+.text{
+    position:relative;
+    top:-30px;
+    left:-90px;
+}
+
     .table{
        
         background-color:rgb(200, 238, 232);
