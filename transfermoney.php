@@ -72,7 +72,6 @@ ul li a:hover {
            font-weight: bold;
            background-color:rgb(231, 29, 73);
            color:white; 
-           align-items: center;
           }
 
       #button1:hover {
@@ -120,7 +119,7 @@ ul li a:hover {
 
 <div class="container-fluid">
         <h2 class="text-center pt-4"style="font-family: 'Courier New', Courier, monospace;font-weight: bold;font-size: 35px">TRANSFER MONEY</h2>
-       <button onclick="location.href='transactionhistory.php'" type="button" class="btn" id="button1">Go To Transaction History</button>>
+        <button onclick="location.href='transactionhistory.php'" type="button" class="btn" id="button1">Go To Transaction History</button>
         <br>
             <div class="row">
                 <div class="col">
