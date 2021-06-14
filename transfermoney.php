@@ -69,7 +69,7 @@ ul li a:hover {
            padding-left:20px;
            font-size:17px;
            font-family: 'Courier New', Courier, monospace;
-          font-weight: bold;
+           font-weight: bold;
            background-color:rgb(231, 29, 73);
            color:white; 
           }
