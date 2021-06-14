@@ -72,6 +72,7 @@ ul li a:hover {
            font-weight: bold;
            background-color:rgb(231, 29, 73);
            color:white; 
+           align-items: center;
           }
 
       #button1:hover {
